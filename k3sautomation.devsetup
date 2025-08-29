@@ -1,0 +1,51 @@
+devsetup:
+  dependencies:
+    powershell:
+      scope: CurrentUser
+      modules:
+    scoop:
+      packages:
+      - name: 7zip
+        version: "25.01"
+        bucket: main
+      - name: helm
+        version: 3.17.4
+        bucket: main
+      - name: k3sup
+        version: 0.13.10
+        bucket: main
+      - name: kompose
+        version: 1.37.0
+        bucket: main
+      - name: kubectl
+        version: 1.33.3
+        bucket: main
+      - name: oscdimg
+        version: "2.56"
+        bucket: main
+      - name: packer
+        version: 1.14.1
+        bucket: main
+      - name: terraform
+        version: 1.12.2
+        bucket: main
+      buckets: []
+    chocolatey:
+      packages:
+      - name: git
+        version: 2.50.1
+  commands:
+  configuration:
+    createdBy: PwshDevs
+    lastModified: 2025-08-28 20:53:48
+    version: 1.1.0
+    createdDate: 2025-08-28 20:52:50
+    description: Auto-generated development environment configuration
+    powershell:
+      version: 7.5.2
+      edition: Core
+    os:
+      name: Windows
+      version: Windows 11 Pro
+      architecture: x64
+
