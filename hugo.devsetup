@@ -1,0 +1,52 @@
+devsetup:
+  configuration:
+    createdBy: PwshDevs
+    description: Auto-generated development environment configuration
+    lastModified: 2025-08-30 19:08:29
+    createdDate: 2025-08-30 19:01:59
+    os:
+      architecture: x64
+      name: Windows
+      version: Windows 11 Pro
+    version: 1.1.0
+    powershell:
+      version: 7.5.2
+      edition: Core
+  dependencies:
+    powershell:
+      scope: CurrentUser
+      modules:
+    chocolatey:
+      packages:
+      - name: docker
+        version: 99.0.0
+      - name: docker-compose
+        version: 2.39.2
+      - name: git
+        version: 2.50.1
+      - name: github-desktop
+        version: 3.5.0
+      - name: nodejs
+        version: 24.5.0
+      - name: pwsh
+        version: 7.5.2
+      - name: vscode
+        version: 
+      - name: docker-desktop
+        version: 4.45.0
+    scoop:
+      buckets: []
+      packages:
+      - name: 7zip
+        version: "25.01"
+        bucket: main
+      - name: go
+        version: 1.25.0
+        bucket: main
+      - name: hugo
+        version: 0.148.2
+        bucket: main
+      - name: hugo-extended
+        version: 0.148.2
+        bucket: main
+  commands:
